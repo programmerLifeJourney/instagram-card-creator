@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Staatliches-Regular";
+  src: url("Staatliches-Regular.ttf")  format("truetype")
+}
+
+body {
+    font-family: "Staatliches-Regular" !important;
+}
+
+.background-card {
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(-142deg, #101010, #8c8989, #ffc100);
+    position: relative;
+}
+.h {
+    display: none !important;
+}
+.title {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    top: 20px;
+    background-image: linear-gradient(-19deg, #d4d4d4, #1010103b);;
+    text-shadow: 0px 0px 3px black;
+    border-radius: 30px;
+    padding: 3px 12px;
+}
+.content-card-wrapper {
+    position: absolute;
+    display: block;
+    top: 150px;
+    width: 480px;
+    left: 60px;
+    min-height: 305px;
+    border-radius: 25px;
+    padding: 0px;
+    background: linear-gradient(45deg, #0e0e0e9e, #5a565682);
+    background: #000000bf;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.content-header {
+    position: absolute;
+    display: block;
+    height: 35px;
+    width: 100%;
+    background: silver;
+}
+
+.content-header span[btn="true"] {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 12.5px;
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50%;
+    background: #02d202;
+}
+
+.content-header span[btn="true"]:nth-child(1) {
+    right: 35px;
+    background: #fdcd21;
+}
+
+.content-header span[btn="true"]:nth-child(2) {
+    right: 55px;
+    background: red;
+}
+
+.content-text {
+    padding: 45px 15px 15px 15px;
+    color: #fff;
+}
+
+.author {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+}
